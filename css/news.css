@@ -1,0 +1,42 @@
+body {
+    background-color: #F5FAF8;
+}
+
+.intro {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.intro .col {
+    text-align: center;
+}
+
+.intro img {
+    margin-bottom: 20px;
+
+}
+
+.intro>.col:not(:last-child) {
+    border-right: solid 2px #2E443C33;
+}
+
+h2 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.news-card {
+    display: block;
+    height: 120px;
+    margin-top: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 10px rgba(0.41, 0.71, 0.70, 0.08);
+}
+
+.news-card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: inherit;
+}

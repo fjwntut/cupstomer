@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous" />
+
+
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/shops.css">
+
+        <title>Cupstomer</title>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="tab-title">附近店家</div>
+            <div id='map' style=''></div>
+            <script>
+                mapboxgl.accessToken =
+                    'pk.eyJ1IjoiZmp3MTIzIiwiYSI6ImNrNHZsbjQ2bjBvMGszbW53OThhejYxaGUifQ.J8HKDWI7eC5JOn5JhVYpzQ';
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    style: 'mapbox://styles/fjw123/ck4voo8i0b7j41crvthomm0ud',
+                    center: {
+                        lon: 121.516,
+                        lat: 25.045
+                    },
+                    zoom: 15.00
+                });
+            </script>
+            <div class="shop-list x-scroll">
+                <div class="shop-card">
+                    <img class="" src="../img/shop-cover1@2x.png" alt="">
+                    <div class="d-flex px-2 py-1">
+                        <p class="mr-auto mb-0">50嵐</p>
+                        <p class="mb-0 opacity-5">北車門市</p>
+                    </div>
+                </div>
+                <div class="shop-card">
+                    <img class="" src="../img/shop-cover2@2x.png" alt="">
+                    <div class="d-flex px-2 py-1">
+                        <p class="mr-auto mb-0">老虎堂</p>
+                        <p class="mb-0 opacity-5">北車門市</p>
+                    </div>
+                </div>
+                <div class="shop-card">
+                    <img class="" src="../img/shop-cover3@2x.png" alt="">
+                    <div class="d-flex px-2 py-1">
+                        <p class="mr-auto mb-0">一芳</p>
+                        <p class="mb-0 opacity-5">北車門市</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btm-navbar fixed-bottom">
+            <a href="../index.html" class="tab">
+                <img width="25px" src="../img/tab_icon_home@2x.png" alt="">
+                <p>首頁</p>
+            </a>
+            <a href="records.html" class="tab">
+                <img width="28px" src="../img/tab_icon_record@2x.png" alt="">
+                <p>消費記錄</p>
+            </a>
+            <a href="" class="tab current">
+                <img width="24px" src="../img/tab_icon_map@2x.png" alt="">
+                <p>附近店家</p>
+            </a>
+            <a href="news.html" class="tab">
+                <img width="24px" src="../img/tab_icon_news@2x.png" alt="">
+                <p>消息中心</p>
+            </a>
+            <a href="setting.html" class="tab">
+                <img width="30px" src="../img/tab_icon_setting@2x.png" alt="">
+                <p>賬戶設置</p>
+            </a>
+        </div>
+    </body>
+
+</html>

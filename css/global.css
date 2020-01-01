@@ -1,0 +1,89 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    color: #294746;
+}
+
+.navbar-padding {
+    padding-bottom: 90px;
+}
+
+.tab-title {
+    font-size: 20px;
+    color: #294746;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.big-text {
+    font-size: 60pt;
+    line-height: 0.8em;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 16;
+    letter-spacing: 0.1em;
+}
+
+.x-scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.x-scroll>div {
+    display: inline-block;
+}
+
+.btm-navbar {
+    background-color: #ffffff;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-top: solid 2px #2E443C12;
+
+}
+
+.btm-navbar a {
+    color: #70A8A6 !important;
+}
+
+.btm-navbar .tab {
+    opacity: 0.5;
+}
+
+.tab p {
+    display: none;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.tab.current {
+    opacity: 1;
+}
+
+.tab.current p {
+    display: block;
+}
