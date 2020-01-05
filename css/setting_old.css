@@ -22,53 +22,16 @@
     font-family: "Tw Cen MT";
     font-size: 24px;
     color: #294746;
+    padding-bottom: 30px;
     z-index: 2;
-    margin-bottom: 0px;
 }
 
-.profile-contect {
-    font-size: 12px;
-    z-index: 2;
-    margin-bottom: 0px;
-}
-
-.setting-list-profile {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: -90px;
-    padding: 95px 15px 30px 15px;
-    width: auto;
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0px 3px 24px rgba(41, 71, 70, 0.1);
-    z-index: 1;
-}
-
-.setting-list-main {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    padding: 15px 15px 0px 15px;
-    width: auto;
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0px 3px 24px rgba(41, 71, 70, 0.1);
-    z-index: 1;
-}
-
-.col-3 {
-    text-align: center;
-}
-
-.col-4 {
-    text-align: center;
-}
 
 .setting-list {
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 15px;
-    padding: 16px 15px;
+    margin-top: -90px;
+    padding: 90px 15px 30px 15px;
     width: auto;
     border-radius: 4px;
     background: #fff;
@@ -85,14 +48,14 @@
 }
 
 .setting-list a.action-text {
-    color: #6c9595;
+    color: #70a8a6;
     font-weight: bold;
 }
 
 .setting-list button {
     padding: 0 0 0 0;
     height: 16px;
-    background: #6c959534;
+    background: #9ab4b534;
     border: none;
     width: 31px;
     border-radius: 8px;
@@ -101,6 +64,6 @@
 .setting-list button.on div {
     width: 16px;
     height: 16px;
-    background: #6c9595;
+    background: #9ab5b6;
     border-radius: 100%;
 }

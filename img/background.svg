@@ -1,17 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360.001" height="640" viewBox="0 0 360.001 640">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360.001" height="639.776" viewBox="0 0 360.001 639.776">
   <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-
-      .cls-2 {
-        fill: #eff6f4;
-      }
-    </style>
+    <linearGradient id="linear-gradient" x1="0.088" y1="0.856" x2="0.825" y2="0.235" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7f7f7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0" x2="0.5" y2="0.58" xlink:href="#linear-gradient"/>
   </defs>
-  <g id="background" transform="translate(0.001)">
-    <rect id="Rectangle_242" data-name="Rectangle 242" class="cls-1" width="360" height="640"/>
-    <path id="Path_60" data-name="Path 60" class="cls-2" d="M-4.7-140.021s74.463-27.04,189.384,0S355.3-160.3,355.3-160.3V159.174H-4.7Z" transform="translate(4.703 480.602)"/>
+  <g id="background" transform="translate(0.001 -15.028)">
+    <path id="Intersection_1" data-name="Intersection 1" d="M-5109-7520.971a74.815,74.815,0,0,1,25.109-56h99.782a75.424,75.424,0,0,1,6.108,6.108v99.783a74.808,74.808,0,0,1-56,25.108A75,75,0,0,1-5109-7520.971Z" transform="translate(5338 7592)" fill="url(#linear-gradient)"/>
+    <path id="Path_60" data-name="Path 60" d="M-4.7-134.369s74.463-34.576,189.384,0S355.3-160.3,355.3-160.3V248.207H-4.7Z" transform="translate(4.703 406.597)" fill="url(#linear-gradient-2)"/>
   </g>
 </svg>
